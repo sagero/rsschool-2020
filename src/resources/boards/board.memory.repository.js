@@ -1,32 +1,24 @@
-const User = require('../users/user.model');
+const Board = require('./board.model');
 
 const mockData = [
   {
-    id: '1',
-    name: 'user 1',
-    login: 'login 1',
-    password: 'pass1'
+    id: '1111',
+    title: 'title 1',
+    columns: [{ id: 'columns-1', title: 'title 1', order: '0' }]
   },
   {
-    id: '2222-2131-2324',
-    name: 'user 2',
-    login: 'login 2',
-    password: 'pass2'
-  },
-  {
-    id: '3333-2131-2324',
-    name: 'user 3',
-    login: 'login 3',
-    password: 'pass3'
+    id: '2222',
+    title: 'title 1',
+    columns: [{ id: 'columns-2', title: 'title 2', order: '0' }]
   }
 ];
 
 const getAll = async () => mockData;
 
-const getById = async id => mockData.find(user => user.id === id);
+const getById = async id => mockData.find(board => board.id === id);
 
 const create = async data => {
-  const obj = new User(data);
+  const obj = new Board(data);
   mockData.push(obj);
   return obj;
 };
@@ -35,13 +27,14 @@ const update = async (id, data) => {
   const obj = await getById(id);
   if (obj) {
     Object.assign(obj, data);
+
     return obj;
   }
   return false;
 };
 
 const remove = async id => {
-  const index = mockData.findIndex(user => user.id === id);
+  const index = mockData.findIndex(board => board.id === id);
   if (index !== -1) {
     mockData.splice(index, 1);
     return true;
