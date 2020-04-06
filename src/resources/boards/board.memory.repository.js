@@ -27,7 +27,6 @@ const update = async (id, data) => {
   const obj = await getById(id);
   if (obj) {
     Object.assign(obj, data);
-
     return obj;
   }
   return false;
