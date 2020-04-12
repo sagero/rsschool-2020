@@ -24,11 +24,12 @@ app.use('/', (req, res, next) => {
   }
   next();
 });
+
 app.use('/users', userRouter);
 app.use('/boards', boardRouter);
 app.use('/boards/:boardId/tasks', taskRouter);
 
-app.use(function(err, req, res, next) {
+app.use((err, req, res, next) => {
   logger.error(`App error: ${err.message}`);
   res.status(500).send('Sorry. Something went wrong!');
   next();
