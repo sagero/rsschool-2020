@@ -24,4 +24,16 @@ const clearUser = async id => {
   return Task.updateMany({ userId: id }, { userId: null });
 };
 
-module.exports = { getAll, getById, create, update, remove, clearUser };
+const removeByBoardId = async id => {
+  return Task.deleteMany({ boardId: id });
+};
+
+module.exports = {
+  getAll,
+  getById,
+  create,
+  update,
+  remove,
+  clearUser,
+  removeByBoardId
+};

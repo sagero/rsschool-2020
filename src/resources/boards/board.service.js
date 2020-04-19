@@ -10,12 +10,7 @@ const create = data => boardsRepo.create(data);
 const update = (id, data) => boardsRepo.update(id, data);
 
 const remove = async id => {
-  const tasks = await taskRepo.getAll({ boardId: id });
-  await Promise.all([
-    tasks.map(task => {
-      return taskRepo.remove(task.id);
-    })
-  ]);
+  await taskRepo.removeByBoardId(id);
   return boardsRepo.remove(id);
 };
 
