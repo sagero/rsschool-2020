@@ -1,0 +1,67 @@
+{"level":"info","date":"2020-04-19T20:25:55.846Z","url":"/","params":{"0":"/users"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:55.938Z","url":"/","params":{"0":"/users"},"body":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+{"level":"info","date":"2020-04-19T20:25:55.977Z","url":"/","params":{"0":"/users/9325e1e3-d0ce-4222-8d97-527a0ca73bdf"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:56.027Z","url":"/","params":{"0":"/users/9325e1e3-d0ce-4222-8d97-527a0ca73bdf"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:56.036Z","url":"/","params":{"0":"/users"},"body":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+{"level":"info","date":"2020-04-19T20:25:56.049Z","url":"/","params":{"0":"/users/3cdb2df5-51af-4568-a76d-a302fafd5ffa"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:56.058Z","url":"/","params":{"0":"/users"},"body":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+{"level":"info","date":"2020-04-19T20:25:56.065Z","url":"/","params":{"0":"/users/7b802abf-1f93-4f95-88e5-6739e6c11384"},"body":{"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"7b802abf-1f93-4f95-88e5-6739e6c11384"}}
+{"level":"info","date":"2020-04-19T20:25:56.073Z","url":"/","params":{"0":"/users/7b802abf-1f93-4f95-88e5-6739e6c11384"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:56.081Z","url":"/","params":{"0":"/users/7b802abf-1f93-4f95-88e5-6739e6c11384"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:56.088Z","url":"/","params":{"0":"/users"},"body":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+{"level":"info","date":"2020-04-19T20:25:56.096Z","url":"/","params":{"0":"/users/481cc746-06f7-4715-8cbd-a55deca377a2"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:56.104Z","url":"/","params":{"0":"/users"},"body":{"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}}
+{"level":"info","date":"2020-04-19T20:25:56.134Z","url":"/","params":{"0":"/boards"},"body":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+{"level":"info","date":"2020-04-19T20:25:56.143Z","url":"/","params":{"0":"/boards/78a3f229-7274-4d50-87ee-ddb7ef4986d5/tasks"},"body":{"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"2b5a4221-5c44-437b-8b1f-2017e9e9f862","boardId":"78a3f229-7274-4d50-87ee-ddb7ef4986d5"}}
+{"level":"info","date":"2020-04-19T20:25:56.148Z","url":"/","params":{"0":"/boards/78a3f229-7274-4d50-87ee-ddb7ef4986d5/tasks"},"body":{"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"2b5a4221-5c44-437b-8b1f-2017e9e9f862","boardId":"78a3f229-7274-4d50-87ee-ddb7ef4986d5"}}
+{"level":"info","date":"2020-04-19T20:25:56.155Z","url":"/","params":{"0":"/users/2b5a4221-5c44-437b-8b1f-2017e9e9f862"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:56.161Z","url":"/","params":{"0":"/boards/78a3f229-7274-4d50-87ee-ddb7ef4986d5/tasks/f0867b53-e8ee-4d72-b2c9-7cd6c3ec11a8"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:56.168Z","url":"/","params":{"0":"/boards/78a3f229-7274-4d50-87ee-ddb7ef4986d5/tasks/ddf9c3b4-4d03-4db9-8b84-1cf3edbcdbc7"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:56.176Z","url":"/","params":{"0":"/boards/78a3f229-7274-4d50-87ee-ddb7ef4986d5/tasks/f0867b53-e8ee-4d72-b2c9-7cd6c3ec11a8"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:56.179Z","url":"/","params":{"0":"/boards/78a3f229-7274-4d50-87ee-ddb7ef4986d5/tasks/ddf9c3b4-4d03-4db9-8b84-1cf3edbcdbc7"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:56.185Z","url":"/","params":{"0":"/boards/78a3f229-7274-4d50-87ee-ddb7ef4986d5"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:56.246Z","url":"/","params":{"0":"/boards"},"body":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+{"level":"info","date":"2020-04-19T20:25:56.275Z","url":"/","params":{"0":"/boards/5a294e37-c780-452d-b49b-3cce96f95c31/tasks"},"body":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+{"level":"info","date":"2020-04-19T20:25:56.291Z","url":"/","params":{"0":"/boards/5a294e37-c780-452d-b49b-3cce96f95c31/tasks"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:56.312Z","url":"/","params":{"0":"/boards/5a294e37-c780-452d-b49b-3cce96f95c31/tasks"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:56.321Z","url":"/","params":{"0":"/boards/5a294e37-c780-452d-b49b-3cce96f95c31/tasks/0b3709ba-05bb-4ca9-87ce-2c034edcbb2b"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:56.349Z","url":"/","params":{"0":"/boards/5a294e37-c780-452d-b49b-3cce96f95c31/tasks"},"body":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+{"level":"info","date":"2020-04-19T20:25:56.364Z","url":"/","params":{"0":"/boards/5a294e37-c780-452d-b49b-3cce96f95c31/tasks/8aa48b08-0879-411c-92b0-c3fbd39cfeaa"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:56.373Z","url":"/","params":{"0":"/boards/5a294e37-c780-452d-b49b-3cce96f95c31/tasks"},"body":{"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}}
+{"level":"info","date":"2020-04-19T20:25:56.380Z","url":"/","params":{"0":"/boards/5a294e37-c780-452d-b49b-3cce96f95c31/tasks/23efa18e-b160-434c-859a-09f9e2ad7fc7"},"body":{"id":"23efa18e-b160-434c-859a-09f9e2ad7fc7","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"5a294e37-c780-452d-b49b-3cce96f95c31","columnId":null}}
+{"level":"info","date":"2020-04-19T20:25:56.387Z","url":"/","params":{"0":"/boards/5a294e37-c780-452d-b49b-3cce96f95c31/tasks/23efa18e-b160-434c-859a-09f9e2ad7fc7"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:56.395Z","url":"/","params":{"0":"/boards/5a294e37-c780-452d-b49b-3cce96f95c31/tasks/0b3709ba-05bb-4ca9-87ce-2c034edcbb2b"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:56.404Z","url":"/","params":{"0":"/boards/5a294e37-c780-452d-b49b-3cce96f95c31/tasks/0b3709ba-05bb-4ca9-87ce-2c034edcbb2b"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:56.410Z","url":"/","params":{"0":"/boards/5a294e37-c780-452d-b49b-3cce96f95c31/tasks/0b3709ba-05bb-4ca9-87ce-2c034edcbb2b"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:56.416Z","url":"/","params":{"0":"/boards/5a294e37-c780-452d-b49b-3cce96f95c31"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:56.976Z","url":"/","params":{"0":"/boards"},"body":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+{"level":"info","date":"2020-04-19T20:25:57.031Z","url":"/","params":{"0":"/boards"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:57.052Z","url":"/","params":{"0":"/boards"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:57.073Z","url":"/","params":{"0":"/boards/1111"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:57.089Z","url":"/","params":{"0":"/boards"},"body":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+{"level":"info","date":"2020-04-19T20:25:57.096Z","url":"/","params":{"0":"/boards/8f327a7e-b385-433c-ade7-2bbfe9e5559f"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:57.103Z","url":"/","params":{"0":"/boards"},"body":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+{"level":"info","date":"2020-04-19T20:25:57.109Z","url":"/","params":{"0":"/boards/591cccb9-5d90-4ce7-af82-309dbab5f084"},"body":{"id":"591cccb9-5d90-4ce7-af82-309dbab5f084","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+{"level":"info","date":"2020-04-19T20:25:57.114Z","url":"/","params":{"0":"/boards/591cccb9-5d90-4ce7-af82-309dbab5f084"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:57.120Z","url":"/","params":{"0":"/boards/591cccb9-5d90-4ce7-af82-309dbab5f084"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:57.125Z","url":"/","params":{"0":"/boards"},"body":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+{"level":"info","date":"2020-04-19T20:25:57.130Z","url":"/","params":{"0":"/boards/e3644218-094b-4e04-a935-1fd159dce39c"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:57.134Z","url":"/","params":{"0":"/boards/e3644218-094b-4e04-a935-1fd159dce39c"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:57.140Z","url":"/","params":{"0":"/boards"},"body":{"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}}
+{"level":"info","date":"2020-04-19T20:25:57.153Z","url":"/","params":{"0":"/boards/3fc05474-8032-4bdc-9a8f-b95a5645162c/tasks"},"body":{"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"3fc05474-8032-4bdc-9a8f-b95a5645162c","userId":null,"columnId":null}}
+{"level":"info","date":"2020-04-19T20:25:57.158Z","url":"/","params":{"0":"/boards/3fc05474-8032-4bdc-9a8f-b95a5645162c/tasks"},"body":{"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"3fc05474-8032-4bdc-9a8f-b95a5645162c","userId":null,"columnId":null}}
+{"level":"info","date":"2020-04-19T20:25:57.162Z","url":"/","params":{"0":"/boards/3fc05474-8032-4bdc-9a8f-b95a5645162c/tasks"},"body":{"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"3fc05474-8032-4bdc-9a8f-b95a5645162c","userId":null,"columnId":null}}
+{"level":"info","date":"2020-04-19T20:25:57.164Z","url":"/","params":{"0":"/boards/3fc05474-8032-4bdc-9a8f-b95a5645162c/tasks"},"body":{"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"3fc05474-8032-4bdc-9a8f-b95a5645162c","userId":null,"columnId":null}}
+{"level":"info","date":"2020-04-19T20:25:57.168Z","url":"/","params":{"0":"/boards/3fc05474-8032-4bdc-9a8f-b95a5645162c/tasks"},"body":{"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"3fc05474-8032-4bdc-9a8f-b95a5645162c","userId":null,"columnId":null}}
+{"level":"info","date":"2020-04-19T20:25:57.179Z","url":"/","params":{"0":"/boards/3fc05474-8032-4bdc-9a8f-b95a5645162c/tasks/0853b5aa-150a-47fa-bbf1-cd0b7c143b32"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:57.181Z","url":"/","params":{"0":"/boards/3fc05474-8032-4bdc-9a8f-b95a5645162c/tasks/4eb33c9d-3fbd-4f4b-850a-e19fe1584520"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:57.183Z","url":"/","params":{"0":"/boards/3fc05474-8032-4bdc-9a8f-b95a5645162c/tasks/7d387fd5-8539-4793-b2cb-94357df0ddff"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:57.186Z","url":"/","params":{"0":"/boards/3fc05474-8032-4bdc-9a8f-b95a5645162c/tasks/36819a2a-de21-4575-ae50-e26e8844aece"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:57.189Z","url":"/","params":{"0":"/boards/3fc05474-8032-4bdc-9a8f-b95a5645162c/tasks/acf84a14-d585-4fa2-b74d-5668fa892a1f"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:57.194Z","url":"/","params":{"0":"/boards/3fc05474-8032-4bdc-9a8f-b95a5645162c"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:57.202Z","url":"/","params":{"0":"/boards/3fc05474-8032-4bdc-9a8f-b95a5645162c/tasks/0853b5aa-150a-47fa-bbf1-cd0b7c143b32"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:57.204Z","url":"/","params":{"0":"/boards/3fc05474-8032-4bdc-9a8f-b95a5645162c/tasks/4eb33c9d-3fbd-4f4b-850a-e19fe1584520"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:57.207Z","url":"/","params":{"0":"/boards/3fc05474-8032-4bdc-9a8f-b95a5645162c/tasks/7d387fd5-8539-4793-b2cb-94357df0ddff"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:57.209Z","url":"/","params":{"0":"/boards/3fc05474-8032-4bdc-9a8f-b95a5645162c/tasks/36819a2a-de21-4575-ae50-e26e8844aece"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:57.212Z","url":"/","params":{"0":"/boards/3fc05474-8032-4bdc-9a8f-b95a5645162c/tasks/acf84a14-d585-4fa2-b74d-5668fa892a1f"},"body":{}}
+{"level":"info","date":"2020-04-19T20:25:57.217Z","url":"/","params":{"0":"/boards/cb1263a8-c36c-4348-888a-0058b3e75c58"},"body":{}}
