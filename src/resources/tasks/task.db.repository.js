@@ -21,7 +21,11 @@ const remove = async id => {
 };
 
 const clearUser = async id => {
+<<<<<<< HEAD
   return Task.updateMany({ userId: id }, { userId: null });
+=======
+  return Task.update({ userId: id }, { userId: null });
+>>>>>>> dc03346b0551785e283911a3004a29ee33c68342
 };
 
 module.exports = { getAll, getById, create, update, remove, clearUser };
