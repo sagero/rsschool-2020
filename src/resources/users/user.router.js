@@ -42,7 +42,7 @@ router.route('/:id').put(
 router.route('/:id').delete(
   checkError(async (req, res) => {
     const user = await usersService.remove(req.params.id);
-    if (user) {
+    if (user.deletedCount) {
       res.status(204).end();
     } else {
       res.status(404).end();
