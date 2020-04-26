@@ -5,6 +5,8 @@ const getAll = () => usersRepo.getAll();
 
 const getById = id => usersRepo.getById(id);
 
+const getByLogin = login => usersRepo.getByLogin(login);
+
 const create = data => usersRepo.create(data);
 
 const update = (id, data) => usersRepo.update(id, data);
@@ -14,4 +16,4 @@ const remove = async id => {
   return usersRepo.remove(id);
 };
 
-module.exports = { getAll, getById, create, update, remove };
+module.exports = { getAll, getById, getByLogin, create, update, remove };

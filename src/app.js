@@ -5,7 +5,9 @@ const YAML = require('yamljs');
 const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.router');
 const taskRouter = require('./resources/tasks/task.router');
+const loginRouter = require('./resources/login/login.router');
 const logger = require('./middleware/logger');
+const checkToken = require('./middleware/checkToken');
 
 const app = express();
 
@@ -15,7 +17,7 @@ app.use(express.json());
 
 app.use('/doc', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 
-app.use('*', logger.requests);
+app.use('/', logger.requests);
 
 app.use('/', (req, res, next) => {
   if (req.originalUrl === '/') {
@@ -25,9 +27,10 @@ app.use('/', (req, res, next) => {
   next();
 });
 
-app.use('/users', userRouter);
-app.use('/boards', boardRouter);
-app.use('/boards/:boardId/tasks', taskRouter);
+app.use('/users', checkToken, userRouter);
+app.use('/boards', checkToken, boardRouter);
+app.use('/boards/:boardId/tasks', checkToken, taskRouter);
+app.use('/login', loginRouter);
 
 app.use((err, req, res, next) => {
   logger.error(`App error: ${err.message}`);
